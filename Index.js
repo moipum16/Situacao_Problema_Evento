@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')({ sigint: true }); //ativa o terminal que 
 
 const DataPadrao = [parseInt(9), parseInt(10), parseInt(2022)];
 const IdadeMinima = parseInt(18);  //Variáveis permanentes de requisitos para participar do evento.
-const MaximoDeParticipantes = parseInt(3);
+const MaximoDeParticipantes = parseInt(100);
 
 var Participantes = (new Array); //Onde será armazenada a lista de participantes nome + idade.
 var Nome = null; //Variável temporária onde será armazenada o nome durante o cadastro.
